@@ -1,0 +1,24 @@
+QLabel{
+    border: 3px solid black;
+    background-color: green;
+    color: black;
+}
+
+QPushButton{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    /* Жирнота шрифта */
+}
+
+QMainWindow{
+    background-color: rgb(75, 74, 153);
+}
+
+QPushButton:hover{
+    background-color: lightgoldenrodyellow;
+}
