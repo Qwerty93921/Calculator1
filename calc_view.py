@@ -2,6 +2,8 @@ from PyQt6.QtWidgets import *
 import os
 import sys
 from calc_main_window import *
+from calc_model import *
+
 
 if __name__ == '__main__':
     os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = "venv/Lib/site-packages/PyQt6/Qt6/plugins/platforms"
